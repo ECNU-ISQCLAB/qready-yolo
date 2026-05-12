@@ -1,0 +1,97 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+*.egg-info/
+.eggs/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 环境变量（含敏感信息，禁止提交）
+.env
+.env.local
+.env.*.local
+
+# ============ AI / ML ============
+
+# 模型权重（体积大，用共享网盘/HuggingFace Hub 分发）
+*.pt
+*.pth
+*.ckpt
+*.weights
+*.safetensors
+*.bin
+*.h5
+*.pkl
+*.onnx
+*.tflite
+*.torchscript
+
+# YOLO 训练输出（runs/ 会自动生成，不需要追踪）
+runs/
+
+# 数据集（用共享网盘分发，不进 git）
+data/
+datasets/
+*.zip
+*.tar.gz
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# 实验追踪
+wandb/
+mlruns/
+.mlflow/
+
+# ============ LaTeX ============
+
+# 编译产物（不进 git，本地编译即可）
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.toc
+*.lot
+*.lof
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.nav
+*.snm
+*.vrb
+
+# LaTeX 源文件和最终 PDF 正常追踪，不在此列
+
+# ============ 系统 / 编辑器 ============
+
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 日志
+logs/
+*.log
