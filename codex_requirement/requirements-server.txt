@@ -1,0 +1,9 @@
+numpy==1.26.4
+scipy
+matplotlib
+opencv-python-headless
+tqdm
+Pillow==10.4.0
+h5py
+tensorboard
+thop
